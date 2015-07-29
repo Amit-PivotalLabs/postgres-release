@@ -10,7 +10,7 @@ templates:
   pg_hba.conf.erb: config/pg_hba.conf
 
 packages:
-  - common
+  - postgres-common
   - postgres
   - postgres-9.4.2
 
